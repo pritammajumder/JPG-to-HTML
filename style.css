@@ -18,6 +18,7 @@ body{
   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0
     ,0,0.5));
   overflow: hidden;
+  height: 72px;
 }
 .header-container{
   width: 80%;
@@ -47,10 +48,16 @@ body{
   padding: 20px 25px;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+.nav ul li a:hover{
+    margin-top: 7px;
+    border-bottom: 2px solid green;
 }
 
 .active{
-  border-top: 2px solid  #56bc7d;
+  color: green;
   
 }
 .ac{
